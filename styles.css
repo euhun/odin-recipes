@@ -1,5 +1,23 @@
-title {
+*{
     text-align: center;
-    color: red;
-    font-family:'Courier New', Courier, monospace;
+    color: blueviolet;
+    font-family: 'Courier New', monospace;
+    font-weight:300;
+    font-size:20px;
 }  
+
+body{
+    background-color:beige;
+}
+.title{
+    font-size:40px;
+}
+
+.ingredients,
+.ingredients>li{
+    color: purple;
+    font-family: 'Courier New', monospace;
+    font-weight:300; 
+}
+
+  
