@@ -1,16 +1,27 @@
 *{
     text-align: center;
-    color: blueviolet;
-    font-family: 'Courier New', monospace;
+    color: black;
+    font-family:'Courier New', monospace;
     font-weight:300;
     font-size:20px;
 }  
 
 body{
     background-color:beige;
+    border-style:groove;
+    border-width:20px;
+    border-color:burlywood;
+    padding-bottom:20px;
 }
+
 .title{
-    font-size:40px;
+    font-size:50px;
+    font-family: "Brush Script MT";
+    padding:0px;
+    border-width:5px;
+    border-bottom-style:double;
+    display:inline-block;
+    border-color: black;
 }
 
 .ingredients,
@@ -20,4 +31,61 @@ body{
     font-weight:300; 
 }
 
-  
+li{
+    text-align:left;
+}
+
+img{
+    border-style:inset;
+    border-width:10px;
+    border-color:lavender;
+    border-radius:15px;
+    display:block;
+    margin:8px auto;
+    object-fit:cover;
+}
+
+ul{
+    list-style-position:inside;
+    margin:0px;
+}
+
+h3{
+    border-bottom-style: dashed;
+    border-width:1px;
+    display:inline-block;
+    margin-bottom:0px;
+}
+
+table{
+    margin:0px auto;
+}
+
+th{
+    padding:5px 20px;
+    margin:0px auto;
+    text-align:center;
+}
+
+.link{
+    border-width:0px;
+    display:inline-block;
+    margin:20px auto;
+    height:50px;
+    width:50px;
+}
+
+.arrow{
+    font-weight:900;
+}
+
+a{
+    text-decoration:none;
+}
+
+#home{
+    position:absolute;
+    top:10px;
+    left:30px;
+    height:50px;
+}
